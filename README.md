@@ -1,19 +1,24 @@
-#main compiler chala sakti ho 🔥
-**date**28April2026
-**from**Sialkot, Pakistan 
-###mera c program
 #include<stdio.h>
 int main()
 {
-for(int i=1;i<=5;i++)
-  {
-  printf("%d\n",i);
-  }
-	return 0;
+int n,c;
+n=2;
+c=1;
+do
+{
+  printf("%d*%d=%d\n",n,c,n*c);
+  c=c+1;
 }
-output 
-1
-2
-3
-4
-5
+while(c<=10);
+}
+output
+2*1=2
+2*2=4
+2*3=6
+2*4=8
+2*5=10
+2*6=12
+2*7=14
+2*8=16
+2*9=18
+2*10=20
