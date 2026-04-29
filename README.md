@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int n;
-printf("enter a number");
-scanf("%d",&n);
-if(n%2==0)
-  printf("number is even");
+int a,b;
+printf("enter two number");
+scanf("%d %d",&a,&b);
+if(a>b)
+printf("%d is greater",a);
+else if(b>a)
+printf("%d is greater",b);
 else
-  printf("number is odd");
-  return 0;
+printf("both are equal");
+return 0;
 }
-
